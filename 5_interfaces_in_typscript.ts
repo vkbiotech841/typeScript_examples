@@ -34,7 +34,8 @@ let drawPointThree = (pointTwo: PointTwo) => {
 // Interfaces ARE NOT compiled to JavaScript! It's just for checking/ validation done by our TypeScript compiler. 
 // Hence, we can not have a function for calculating anything inside an interface. It does not mean that we can not have function inside an interface.
 // We can have a function inside an interface. but it should return only void (function with its signature but without implementation logics).
-// Interfaces are purely for declaration. functions of related type can not be moved inside an interface for implimentation. Hence, if we wish to do so, then an interface becomes a class. Hence, concept of class are present.
+// Interfaces are purely for declaration. functions of related type can not be moved inside an interface for implimentation. 
+// Hence, if we wish to do so, then an interface becomes a class. Hence, concept of class are present.
 
 
 // Example interface

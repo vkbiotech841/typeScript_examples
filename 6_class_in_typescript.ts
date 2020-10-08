@@ -29,11 +29,12 @@ class Car {
     }
 }
 
-// Instantiate (create) an object from a class
+// Note: A class can only be used after creating its an instance. Without instance, a class can not be used.
+// Instantiate (create) an object from a class.
 
 let car = new Car(5);
 
-// Method call:
+// Method call: Since, here, car is an object. Hence, we can access all the properties of an object using dot notation.
 car.accelerate();
 car.getSpeed();
 

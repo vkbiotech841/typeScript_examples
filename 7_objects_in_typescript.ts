@@ -24,4 +24,4 @@ point.b = 2;
 point.draw();
 
 
-// Example: Think of Human as class. and virkam, ricky are objects of Human class.
+// Example: Think of Human as class. and vikram, ricky are objects of Human class.

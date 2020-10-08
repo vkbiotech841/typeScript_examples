@@ -44,7 +44,7 @@ pointFour.draw()
 
 
 // solution 01:
-// create a method to return x inside the class. Then this, method can be access from the outside of the class.
+// create a method to return c inside the class. Then this, method can be access from the outside of the class.
 
 let c = pointFour.getC();
 
