@@ -1,4 +1,5 @@
-// Classes allow us to create 'blueprints' for objects
+// Classes allow us to create 'blueprints' for objects;
+// The concept of class does exit in javascript. it is a part of OOP and exits in TypeScript.
 // In Angular, we use classes a lot. For example to create Components, Services, Directives, Pipes, ...
 
 // How to create a class

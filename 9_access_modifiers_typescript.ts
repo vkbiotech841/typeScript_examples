@@ -1,6 +1,8 @@
 // Access modifiers: are keywords applyied to the member of class to control the access from the outside.
 // There are three type of access modifiers in typescript:
-// (1) public (2) private (3) protected
+// (1) public : used within a class.
+// (2) private : used within a class.
+// (3) protected : used when one class extends the properties of another classs, and uses its variable.
 // By default, all members are public. that mean 
 // We can apply access modifiers to : fields, properties or methods. 
 

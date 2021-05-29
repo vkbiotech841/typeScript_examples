@@ -1,5 +1,5 @@
 // In Typescript it is necessary to declare the type of a varaible before writing any function.
-// This is the way to write a type of a variable. In angular it is offen used to declar a variable.
+// This is the way to write a type of a variable. In angular it is offen used to declare a variable.
 
 // Types in typescript could be:
 let a: number;   //Type is number
@@ -21,7 +21,11 @@ const ColorGreen = 1;
 const ColorBlue = 2;
 
 // Example 02: Group of related colores are grouped using enum. It uses itellisence.  
-enum Color { Red = 0, Green = 1, Blue = 2 };
+enum Color {
+    Red = 0,
+    Green = 1,
+    Blue = 2
+};
 let backGroundColor = Color.Blue;
 
 
@@ -80,13 +84,7 @@ console.log(person1);
 
 // Actual object with type and parameters
 
-let person2: {         // colon symbol
-    name: string;      // comma is present.
-    age: number;
-} = {
-    name: 'Vikram',
-    age: 30
-};
+let person2: { name: string; age: number; } = { name: 'Vikram', age: 30 };
 
 console.log(person2);
 
