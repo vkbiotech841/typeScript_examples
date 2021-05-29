@@ -7,7 +7,13 @@
 // A collection of variables are ground into a single file and exported and imported into the another class.
 
 // TypeScript is modular. we can divide our code up over several files
-// In Angular, we then use  "import {} from ''" to access the code in these files
+// In Angular, we then use  "import {} from ''" to access the code in these files.
+
+// Important Terms:
+// (1) export
+// (2) import
+// (3) extends
+// (4) implements
 
 // We export a class, interface, variable, ... by adding 'export' keyword in front of it
 
