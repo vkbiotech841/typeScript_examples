@@ -41,7 +41,7 @@ yetAnotherString = 5;
 let aString: string;
 let aNumber: number;
 let aBoolean: boolean;
-let anArray: Array<string>; // This is a generic type => May only hold 'strings' in this case
+let anArray: Array<string>; // This is a generic type => May only hold 'strings' in array, in this case
 let anything: any; // Any can be used if we don't know the actual type => Use it rarely!
 // We also got void (=> nothing) and enums (a set of numeric values)
 

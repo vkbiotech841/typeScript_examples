@@ -1,6 +1,6 @@
 // A function can have multiple parameters.
 // Some of those parameters could be related to each other. Hence, we group them together within an interface.
-// Interface should also have a name. That follows a pascal notation system.
+// Interface should also have a name. That follows a pascal notation system. (example: VikramKumar)
 // So, instead of giving multiple parameters, we can create a custome interface and use them to other components..
 
 
@@ -24,7 +24,7 @@ interface PointTwo {    // first we made an interface object with varaible
     y: number,
 };
 
-// Second, we used interface in a function.Here, pointTwo is a parameter whereas PointTwo is an interface type that contains two variables. 
+// Second, we used interface in a function. Here, pointTwo is a parameter whereas PointTwo is an interface type that contains two variables. 
 let drawPointThree = (pointTwo: PointTwo) => {
 
 };

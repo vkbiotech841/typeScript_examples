@@ -45,9 +45,9 @@ console.log(Car.numberOfWheels());
 
 
 
-// Cohesin priciple: Variable and functin those are related, should be the part of one unit.
+// Cohesin priciple: Variable and function those are related, should be the part of one unit.
 // Class: Groups variable(properties) and functions (methods) that are highly related.
-// When a function inside a class, they are called as a method.
+// When a function is inside a class, they are called as a method.
 
 class Point {     // Point is a class. Which contains fields(e.g. x, y draw and getDistance method.)
     x: number;    // field: variable with number type

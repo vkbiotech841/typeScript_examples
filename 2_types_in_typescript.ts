@@ -1,4 +1,4 @@
-// In Typescript it is necessary to declare the type of a varaible before writing any function.
+// In Typescript, it is necessary to declare the type of a varaible before writing any function.
 // This is the way to write a type of a variable. In angular it is offen used to declare a variable.
 
 // Types in typescript could be:

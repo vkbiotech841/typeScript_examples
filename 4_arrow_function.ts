@@ -10,6 +10,6 @@ let doLog = (message) => {
     console.log(message);
 };
 
-// Arrow function: if we have one parameter, we can even remove {}
+// Arrow function: if we have one parameter, we can even remove block scope {}
 
 let doLogTwo = (message) => console.log(message);

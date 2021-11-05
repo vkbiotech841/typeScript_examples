@@ -9,7 +9,7 @@ function doSomethingVar() {
     for (var i = 0; i < 5; i++) {
         console.log(i);
     }
-    console.log('Finally ' + i); // No error at i, because the scope of i is to the nearest function.
+    console.log('Finally ' + i); // No error at i, because the scope of i is to the nearest function or global.
 };
 doSomethingVar();
 
@@ -18,7 +18,7 @@ doSomethingVar();
 function doSomethingLet() {
     for (let i = 0; i < 5; i++) {
         console.log(i);
-    }                            // We are seeing an error bacause i is only scope to the for loop block not the nearest function.
+    }                            // We are seeing an error bacause i is only scope to the for code block not the nearest function.
     console.log('Finally ' + i); // error can be seen during the writing code or compile time.Hence,it is better to understand a code.
 };
 

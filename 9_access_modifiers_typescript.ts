@@ -24,7 +24,7 @@ let pointThree = new PointThree(1, 2);
 // Since, d and draw method are public hence, we can access them outside of the class. but c is private. so we can not access c outside of the class using dot notation.
 pointThree.d
 pointThree.draw()
-// Here, we can access only public members.Since, c and d are private, it can not be access outside of the class.
+// Here, we can access only public members.Since, c is a private, it can not be access outside of the class.
 
 
 
